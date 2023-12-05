@@ -1,4 +1,5 @@
 clear;  close all;  clc;
+rng(123); 
 
 X = readtable('data_US.csv');
 x = table2array(X(209:887,'A_H1N1_pdm09'))'; % 4-6, 10-12

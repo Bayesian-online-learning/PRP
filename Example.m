@@ -1,6 +1,7 @@
  clear; close all; 
  clc;
 
+ rng(123); 
 % Generate Data
 %this program is used to generate the raw sequence for the simulation in
 %section 3.3 (manuscript)
