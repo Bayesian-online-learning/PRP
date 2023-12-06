@@ -47,7 +47,7 @@ elseif (Ex==2)
 end
 %  ====================================
 
-[sAA, BB, regret] = online_learning(x, size_delta, 0.5);
+[AA, sAA, BB, regret] = online_learning(x, size_delta, 0.5);
 
 % Component A sequence
 figure;  hold on;

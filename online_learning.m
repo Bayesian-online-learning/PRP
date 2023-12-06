@@ -1,4 +1,4 @@
-function [sAA, BB, regret] = online_learning(x, size_delta, rac_C)
+function [AA, sAA, BB, regret] = online_learning(x, size_delta, rac_C)
     iL = 1;   %  L-end-point of interval 
     iR = 2;   %  R-end-point of interval
     n = length(x);

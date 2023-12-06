@@ -37,7 +37,7 @@ n = length(x);
 % plot(x);
 size_delta = 5;
 
-[sAA, BB, regret] = online_learning(x, size_delta, 0.5);
+[AA, sAA, BB, regret] = online_learning(x, size_delta, 0.5);
 %  ====================================
 min(find(BB==1))
 max(find(BB==1))
